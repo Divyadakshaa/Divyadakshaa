@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+	
+	<servlet>
+		<servlet-name>RegServlet</servlet-name>
+		<servlet-class>
+			com.yourpackage.RegServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegServlet</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+</element>
